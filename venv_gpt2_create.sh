@@ -28,16 +28,6 @@ $python_version -m pip install --upgrade pip --user -q
 print Installing virtualenv
 $python_version -m pip install virtualenv -q
 
-# make sure virtualenv is installed and in path
-#virtualenv_exist=`which virtualenv | grep 'not found'`
-
-#if [ -z virtualenv_exist ]
-#then
-#	print virtualenv not installed or PATH not set.
-#	exit
-#fi
-
-
 print Creating virtual environment
 $python_version -m virtualenv -p $python_version $env_name
 
