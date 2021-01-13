@@ -11,3 +11,5 @@ Setup gpt-2 virtual environment with:
 	chmod 700 venv_gpt2_create.sh
 	./venv_gpt2_create.sh
 ```
+
+Inspired by Reddit user DelosBoard2052.
